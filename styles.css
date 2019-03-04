@@ -3,7 +3,35 @@ body {
 }
 h1 {
   color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+h2 {  
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+}
+h3 {
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
 }
 p {
-  color: grey;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  Font-size: 14px;
+}
+th, td {
+  background-color: white;
+  border: 1px white;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+th, td {
+  padding: 15px;
+}
+th {
+  text-align: left;
+  font-size: 18px;
+  font-style: bold;
 }
