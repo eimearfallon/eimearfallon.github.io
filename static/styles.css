@@ -94,6 +94,11 @@ th {
   position: relative;
 }
 
+.image-card-right {
+  position: relative;
+  text-align: right;
+}
+
 .text-card-left {
     color: white;
     position: absolute;
@@ -110,11 +115,6 @@ th {
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-}
-
-.image-card-right {
-  position: relative;
-  text-align: right;
 }
 
 .text-card-right {
@@ -137,7 +137,52 @@ th {
   font-weight: 100;
 }
 
-
 .footer {
   background-color: black;
 }
+
+.nav ul {
+ list-style-type: none;
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.nav li {
+  display: inline;
+  color: white;
+}
+
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav a:hover {
+  color: grey;
+}
+
+.footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 10%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
